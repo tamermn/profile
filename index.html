@@ -308,8 +308,9 @@ section{padding-block:72px}
 .ucp p{margin:0;font-size:15px;color:var(--muted)}
 .ucp.ai p{color:#C3CEDD}
 .sample.span2{grid-column:1/-1}
-.sample.span2 img{height:340px;object-fit:contain;background:#fff}
-@media (max-width:760px){.uclib{grid-template-columns:1fr}.sample.span2 img{height:220px}}
+.sample.span2 img{height:auto;aspect-ratio:auto;object-fit:contain;background:#F4F7FB}
+.sample img[src*="gtm-planning"]{object-fit:contain;background:#F4F7FB}
+@media (max-width:760px){.uclib{grid-template-columns:1fr}}
 
 /* ---------- Career ---------- */
 .arc{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin-bottom:36px}
@@ -687,16 +688,15 @@ footer{background:var(--ink);color:#AFC0D6;padding-block:26px;font:400 12.5px/1.
       </article>
     </div>
     <div class="samples">
-      <article class="sample span2"><button data-full="img/journey-redesign.jpg" aria-label="Enlarge customer journey redesign"><img src="img/journey-redesign.jpg" alt="Swimlane process map from lead to handover across Sales, Presales, Professional Services, Customer Success and Support" loading="lazy"></button>
-        <div class="body"><span class="tag2">Deliver · journey design</span><h3>Customer journey redesign: lead to handover</h3><p>A cross-functional process redesigned at Infobip and CEQUENS, connecting Sales, Presales, Professional Services, Customer Success and Support from opportunity creation through PoC, pilot, proposal and contract to implementation and handover.</p></div></article>
+      <article class="sample span2"><button data-full="img/journey-redesign.jpg" aria-label="Enlarge the detailed customer journey process map"><img src="img/journey-clean.jpg" alt="Customer journey from lead to handover across Sales, Presales, Professional Services, Customer Success and Support" loading="lazy"></button>
+        <div class="body"><span class="tag2">Deliver · journey design</span><h3>Customer journey redesign: lead to handover</h3><p>A cross-functional process redesigned at Infobip and CEQUENS, connecting Sales, Presales, Professional Services, Customer Success and Support from opportunity creation through PoC, pilot, proposal and contract to implementation and handover. Enlarge to see the detailed process map.</p></div></article>
       <article class="sample"><button data-full="img/value-model.jpg" aria-label="Enlarge value and ROI model"><img src="img/value-model.jpg" alt="Value model results: cost per lead, ROAS, extra gross profit, return per unit spent, and a payback curve" loading="lazy"></button>
         <div class="body"><span class="tag2">Prove · value selling</span><h3>Value and ROI model</h3><p>An interactive model built live with the customer's own figures. It applies the ad platforms' published benchmarks, shows three cases and when the investment pays back.</p></div></article>
-      <article class="sample"><button data-full="img/sales-system.jpg" aria-label="Enlarge GTM operating system"><img src="img/sales-system.jpg" alt="Slide: the system behind the numbers — right accounts, right conversations, right tools" loading="lazy"></button>
-        <div class="body"><span class="tag2">Diagnose · Target · Engage</span><h3>GTM operating system</h3><p>The targeting, conversation and enablement system behind an annual plan, presented to leadership with every lever's math visible.</p></div></article>
-      <article class="sample"><button data-full="img/enablement-journey.jpg" aria-label="Enlarge 60-day enablement journey"><img src="img/enablement-journey.jpg" alt="Slide: seven-phase enablement journey from preboarding to pipeline ownership" loading="lazy"></button>
-        <div class="body"><span class="tag2">Enable · onboarding</span><h3>60-day enablement journey</h3><p>Seven phases that take a new hire from preboarding to owning pipeline, each building on the last.</p></div></article>
-      <article class="sample"><button data-full="img/readiness-checkpoints.jpg" aria-label="Enlarge readiness checkpoints"><img src="img/readiness-checkpoints.jpg" alt="Slide: six readiness checkpoints at days 7, 14, 21, 30, 45 and 60" loading="lazy"></button>
-        <div class="body"><span class="tag2">Enable · ramp</span><h3>Readiness checkpoints</h3><p>Six certified milestones that make ramp-up measurable, from operationally ready to independent pipeline owner.</p></div></article>
+      <article class="sample"><button data-full="img/gtm-planning-diagnostics.jpg" aria-label="Enlarge GTM planning and diagnostics"><img src="img/gtm-planning-diagnostics.jpg" alt="Diagnose, then sequence: a funnel with one leaking stage marked fix here first, and a staircase of quick wins, bets and new growth rising to the target" loading="lazy"></button>
+        <div class="body"><span class="tag2">Steer · internal</span><h3>GTM planning &amp; diagnostics</h3><p>Diagnose, then sequence: find the one leaking stage in the funnel, then sequence quick wins, bets and new growth toward the target, with every lever's math visible to leadership.</p></div></article>
+      <article class="sample span2"><button data-full="img/enablement-60-days.jpg" aria-label="Enlarge 60-day enablement journey"><img src="img/enablement-60-days.jpg" alt="Seven onboarding phases from preboarding to controlled go-live, with certified readiness checkpoints at days 7, 14, 21, 30, 45 and 60" loading="lazy"></button>
+        <div class="body"><span class="tag2">Enable · onboarding</span><h3>60-day enablement journey</h3><p>Seven phases that take a new team member from preboarding to owning pipeline, with certified readiness checkpoints that make ramp-up measurable.</p></div></article>
+      
     </div>
     <p class="note">Company names, customer names and figures are removed. Model inputs shown are illustrative. Use-case builds and demo assets remain with their companies and can be discussed in conversation.</p>
   </div>
